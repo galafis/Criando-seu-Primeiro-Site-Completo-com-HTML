@@ -23,3 +23,23 @@ Abra o arquivo `index.html` em um navegador para começar a navegar pelo site.
 ---
 
 Desenvolvido com ❤ para fins educacionais.
+
+
+## 📋 Descrição
+
+Descreva aqui o conteúdo desta seção.
+
+
+## 📦 Instalação
+
+Descreva aqui o conteúdo desta seção.
+
+
+## 💻 Uso
+
+Descreva aqui o conteúdo desta seção.
+
+
+## 📄 Licença
+
+Descreva aqui o conteúdo desta seção.
