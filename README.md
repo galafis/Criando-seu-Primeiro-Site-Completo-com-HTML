@@ -1,6 +1,6 @@
 # Clínica Vida Saudável
 
-![Hero Image](assets/hero-image.png)
+![Hero Image](assets/new-hero-image.png)
 
 ## 🇧🇷 Português
 
