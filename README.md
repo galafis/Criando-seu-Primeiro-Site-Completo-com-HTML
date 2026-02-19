@@ -35,7 +35,34 @@ Criando-seu-Primeiro-Site-Completo-com-HTML/
 
 ### 📊 Diagrama de Arquitetura
 
-![Diagrama de Estrutura do Projeto](assets/project_structure.png)
+```mermaid
+graph TD
+    ROOT[Clínica Vida Saudável\nSite Multi-página HTML] --> IDX[index.html\nPágina Inicial]
+    ROOT --> SOB[sobre.html\nSobre Nós]
+    ROOT --> ATD[atendimento.html\nAtendimento]
+    ROOT --> CON[contato.html\nContato]
+
+    IDX --> IDX1[Hero Section\nBanner Principal]
+    IDX --> IDX2[Serviços Oferecidos]
+    IDX --> IDX3[Diferenciais da Clínica]
+    IDX --> IDX4[CTA Agendamento]
+
+    SOB --> SOB1[História da Clínica]
+    SOB --> SOB2[Missão · Visão · Valores]
+    SOB --> SOB3[Equipe Médica]
+
+    ATD --> ATD1[Especialidades]
+    ATD --> ATD2[Horários de Funcionamento]
+    ATD --> ATD3[Como Agendar]
+
+    CON --> CON1[Formulário de Contato]
+    CON --> CON2[Endereço e Mapa]
+    CON --> CON3[Telefone e E-mail]
+
+    IDX & SOB & ATD & CON --> SHARED[Componentes Compartilhados]
+    SHARED --> NAV[Navbar\nNavegação entre páginas]
+    SHARED --> FTR[Footer\nRodapé]
+```
 
 ### 📄 Páginas do Site
 
@@ -100,7 +127,34 @@ Criando-seu-Primeiro-Site-Completo-com-HTML/
 
 ### 📊 Architecture Diagram
 
-![Project Structure Diagram](assets/project_structure.png)
+```mermaid
+graph TD
+    ROOT[Clínica Vida Saudável\nMulti-page HTML Site] --> IDX[index.html\nHome Page]
+    ROOT --> SOB[sobre.html\nAbout Us]
+    ROOT --> ATD[atendimento.html\nAppointments]
+    ROOT --> CON[contato.html\nContact]
+
+    IDX --> IDX1[Hero Section\nMain Banner]
+    IDX --> IDX2[Services Offered]
+    IDX --> IDX3[Clinic Differentials]
+    IDX --> IDX4[Scheduling CTA]
+
+    SOB --> SOB1[Clinic History]
+    SOB --> SOB2[Mission · Vision · Values]
+    SOB --> SOB3[Medical Team]
+
+    ATD --> ATD1[Specialties]
+    ATD --> ATD2[Operating Hours]
+    ATD --> ATD3[How to Schedule]
+
+    CON --> CON1[Contact Form]
+    CON --> CON2[Address and Map]
+    CON --> CON3[Phone and Email]
+
+    IDX & SOB & ATD & CON --> SHARED[Shared Components]
+    SHARED --> NAV[Navbar\nNavigation between pages]
+    SHARED --> FTR[Footer]
+```
 
 ### 📄 Website Pages
 
